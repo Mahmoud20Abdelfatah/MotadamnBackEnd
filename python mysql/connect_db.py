@@ -6,7 +6,7 @@ import mysql.connector
 myconn = mysql.connector.connect(
     host ="localhost" ,
     user = "root" ,
-    database = 'official_motadamn'
+    database = 'motadamn_database'
 
 )
 mycursor = myconn.cursor()
