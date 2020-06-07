@@ -20,20 +20,13 @@
     }
 
     .navbar .navbar-collapse ul li .donate{
-        width: 95px;
-        padding: 5px 0;
+        width: 120px;
     }
 
     .navbar .navbar-collapse ul li .nav-link .logo{
         width: 220px;
         margin-left: -64px;
     }
-
-    /* start dss box */
-
-    /* form .form-body{
-        margin-left: 16vh;
-    } */
 
 
 }
@@ -59,7 +52,7 @@
 
     .navbar .navbar-collapse ul li .nav-link button{
         margin-left: 8px;
-        width: 182px;
+        width: 152px;
     }
 
     .navbar .navbar-collapse ul .Bar #li-padding{
@@ -67,9 +60,9 @@
     }
 
     .navbar .navbar-collapse ul li .nav-link .logo{
-        margin-top: -51px;
-        margin-left: -22px;
-        width: 207px;
+        margin-top: -56px;
+        margin-left: 0;
+        width: 210px;
     }
 
     /* start secondry page */
@@ -86,12 +79,6 @@
     .carousel-caption .caption p{
         padding: 15px 50px;
     }
-
-    /* start dss box */
-
-    form .form-body{
-        margin-left: 16vh;
-    }
 }
 
 @media(min-width:1041px) and (max-width:1140px){
@@ -105,13 +92,13 @@
 
     .navbar .navbar-collapse ul li .nav-link button{
         margin-left: 8px;
-        width: 182px;
+        width: 152px;
     }
 
     .navbar .navbar-collapse ul li .nav-link .logo{
         margin-top: -7vh;
         margin-left: -7vh;
-        width: 237px;
+        width: 209px;
     }
 
     .navbar .navbar-collapse ul .Bar .conect{
@@ -119,9 +106,8 @@
     }
 
     .navbar .navbar-collapse ul li .donate{
-        width: 109px;
+        width: 120px;
         margin-right: 0px;
-        padding: 5px 0;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link{
@@ -148,11 +134,6 @@
         margin-bottom: 0;
     }
 
-    /* start dss box */
-    form .form-body{
-        margin-left: 29vh;
-    }
-
 }
 
 @media(min-width:1141px) and (max-width:1295px){
@@ -166,13 +147,12 @@
 
     .navbar .navbar-collapse ul li .nav-link button{
         margin-left: 8px;
-        width: 182px;
+        width: 152px;
     }
 
     .navbar .navbar-collapse ul li .donate{
         width: 120px;
-        margin-right: 20px;
-        padding: 5px 0;
+        margin-right: 30px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link{
@@ -182,8 +162,8 @@
 
     .navbar .navbar-collapse ul li .nav-link .logo{
         margin-left: 0;
-        width: 250px;
-        margin-top:-9vh;
+        width: 270px;
+        margin-top:-10vh;
     }
     
 }
@@ -573,6 +553,7 @@
     .contact-way .caption h5 {
         font-size: 18px;
     }
+
 }
 
 @media(min-width:362px) and (max-width:379px){
@@ -2219,11 +2200,6 @@
         padding: 2px;
         padding-top: 0px;
     }
-
-    /* start dss box */
-    form .form-body{
-        margin-left: 30vh;
-    }
 }
 
 @media(min-width:1185px) and (max-width:1295px){
@@ -2288,122 +2264,6 @@
         font-size: 1.2rem;
         padding: 2px;
         padding-top: 0px;
-    }
-
-    /* start dss box */
-    form .form-body{
-        margin-left: 42vh;
-    }
-}
-
-/* start DSS Box */
-@media(min-width:320px) and (max-width:400px){
-    form h2{
-    line-height: 0;
-    font-size: 30px;
-    letter-spacing: 2.5px;
-    text-align: center;
-    margin-right: -43vh;
-    margin-bottom: 55px;
-    }
-
-    form .form-body{
-        margin-left: 6vh;
-    }
-
-    form .form-body select{
-        margin-top: 10px;
-    }
-
-    form #donate-kind{
-        margin-left: -9px;
-    }
-
-    .multiselect{
-        width: 355px;
-    }
- 
-    form .form-body #town{
-        margin-right: 50px;
-    }
-
-    form .form-body #list{
-        margin-right: -15px;
-    }
-
-
-    form .form-body input[type="text"] {
-        margin-top: 10px;
-        margin-right: 20px;
-    }
-
-    form .form-body .need{
-        margin-top: 20px;
-    }
-
-    form .form-body .needy {
-        margin-top: 28px;
-        margin-left: 163px;
-    }
-
-    form .form-body #sub_menu{
-        margin-right: -10px;
-    }
-}
-
-@media(min-width:401px) and (max-width:700px){
-    form h2{
-        line-height: 0;
-        font-size: 30px;
-        letter-spacing: 2.5px;
-        text-align: center;
-        margin-bottom: 55px;
-        }
-
-        form #donate-kind{
-            margin-left: -9px;
-        }
-    
-        form .form-body{
-            margin-left: 1vh;
-            width: 375px;
-        }
-    
-        form .form-body select{
-            margin-top: 10px;
-        }
-     
-        form .form-body #town{
-            margin-right: 50px;
-        }
-    
-        form .form-body #list{
-            margin-right: -15px;
-        }
-    
-    
-        form .form-body input[type="text"] {
-            margin-top: 10px;
-            margin-right: 20px;
-        }
-    
-        form .form-body .need{
-            margin-top: 20px;
-        }
-    
-        form .form-body .needy {
-            margin-top: 28px;
-            margin-left: 163px;
-        }
-    
-        form .form-body #sub_menu{
-            margin-right: -10px;
-        }
-}
-
-@media(min-width:701px) and (max-width:991px){
-    form .form-body{
-        margin-left: 13vh;
     }
 }
 

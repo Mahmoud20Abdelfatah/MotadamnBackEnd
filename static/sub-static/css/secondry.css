@@ -87,9 +87,9 @@
     font-size: 23px;
     padding: 5px 10px;
     letter-spacing: 1px;
-    /* font-family: "century-gothic", sans-serif;
+    font-family: "century-gothic", sans-serif;
     font-weight: 400;
-    font-style: normal; */
+    font-style: normal;
 
 }
 
@@ -107,13 +107,13 @@
     background: #7FD858;
     font-size: 24px;
     font-weight: 400;
-    padding: 6px 10px 5px;
+    padding: 6px 15px 5px;
     margin-top: 8px;
     border-radius: 5px;
     margin-right: 100px;
-    /* font-family: "century-gothic", sans-serif;
+    font-family: "century-gothic", sans-serif;
     font-weight: 400;
-    font-style: normal; */
+    font-style: normal;
     letter-spacing: 1px;
     
 }
@@ -154,9 +154,9 @@ hr{
 }
 
 .navbar .navbar-collapse ul li .nav-link .logo{
-    width: 285px;
+    width: 314px;
     margin-left: 120px;
-    margin-top: -65px;
+    margin-top: -75px;
     
 }
 
@@ -242,7 +242,7 @@ hr{
 }
 
 .cases .dropdown-menu .form-check-input[value="option6"]{
-    margin-left: -7.6vh;
+    margin-left: -7.5vh;
 }
 
 .cases .dropdown-menu .gender{

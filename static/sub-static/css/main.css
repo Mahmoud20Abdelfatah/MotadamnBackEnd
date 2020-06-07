@@ -38,7 +38,7 @@
 }
 
 .navbar .dropdown-menu{
-    width: 179px;
+    width: 148px;
 }
 
 .dropdown-item{
@@ -64,7 +64,7 @@
     background: #f7dc0c;
     border-radius: 5px;
     margin-right: 25px;
-    font-family: "century-gothic", sans-serif;
+    font-family: century-gothic, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 23px;
@@ -86,13 +86,15 @@
     background: #7FD858;
     font-size: 24px;
     font-weight: 400;
-    padding: 6px 10px 5px;
+    padding: 6px 15px 5px;
     margin-top: 8px;
     border-radius: 5px;
     margin-right: 100px;
     /* font-family: cursive; */
     letter-spacing: 1px;
-    
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -132,9 +134,9 @@ hr{
 }
 
 .navbar .navbar-collapse ul li .nav-link .logo{
-    width: 285px;
+    width: 314px;
     margin-left: 120px;
-    margin-top: -65px;
+    margin-top: -75px;
     
 }
 
