@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'dss_box',
     'charity',
     'donor',
+    'features',
+    'supercategory',
+    
     
 ]
 
