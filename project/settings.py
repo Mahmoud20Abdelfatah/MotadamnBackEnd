@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'programs',
     'dss_box',
-    'cases',
-    'beneficiary',
     'charity',
     'donor',
     
