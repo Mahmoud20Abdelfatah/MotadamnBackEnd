@@ -6,11 +6,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>برامج الدعم الاجتماعي</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href=" {% static "static_site/css/bootstrap.min.css" %}">
-    <link rel='stylesheet' media='screen' href=" {% static "static_site/css/main.css" %}">
-    <link rel='stylesheet' media='screen' href=" {% static "static_site/css/media queries.css" %}">
-    <link rel="stylesheet" href="{% static "static_site/css/all.min.css" %}">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/notourdu" type="text/css"/>
+    <link rel="stylesheet" href=" {% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href=" {% static 'sub-static/css/main.css' %}">
+    <link rel='stylesheet' media='screen' href=" {% static 'sub-static/css/media queries.css' %}">
+    <link rel="stylesheet" href=" {% static 'sub-static/css/all.min.css' %}">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/notourdu" type="text/css">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src=" {% static "static_site/images/markus-spiske-dunsplash.jpg" %}" class="d-block w-100" alt="...">
+            <img src="{%static 'sub-static/images/markus-spiske-dunsplash.jpg'%}" class="d-block w-100" alt="...">
             <div class="carousel-caption">
               <h1 class="text-right">برامج الدعم الاجتماعي</h1>
             </div>
@@ -45,8 +45,8 @@
 
           <li class="nav-item dropdown">
               <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img class="chevron" src="{% static "static_site/images/received_710437753044351.png" %}">
-                <img src="{% static "static_site/images/received_1837342366438740.png" %}">
+                <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %}">
+                <img src=" {% static 'sub-static/images/received_1837342366438740.png' %}">
               </a>
               <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">English</a>
@@ -88,11 +88,11 @@
               <hr>
             </span>
 
-          <li id="li-padding" class="nav-item">
+            <li id="li-padding" class="nav-item">
               <a class="nav-link" href="#">
-                  <img class="logo" src=" {% static "static_site/images/emptyarabic.png" %}">
+                  <img class="logo" src=" {% static 'sub-static/images/emptyarabic.png' %}">
               </a>
-          </li>
+            </li>
         </ul>
 
       </div>
@@ -111,25 +111,25 @@
           <div class="row">
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/images/Copy of DSC_0113.jpg" %} ">
+                <img src="{%static 'sub-static/images/Copy of DSC_0113.jpg'%}">
                 <h5 class="text-center">زواج اليتيمات </h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/ images/5e9a08aab86ab.png" %}">
+                <img src="{%static 'sub-static/images/5e9a08aab86ab.png'%}">
                 <h5 class="text-center">الغارمين</h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/ images/h2.jpg" %}">
+                <img src="{%static 'sub-static/images/h2.jpg'%}">
                 <h5 class="text-center">كفالة اليتيم</h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6 last-col">
               <a href="mosneen.html">
-                <img src="{% static "static_site/ images/5e9d742734f05.png" %}">
+                <img src="{%static 'sub-static/images/5e9d742734f05.png'%}">
                 <h5 class="text-center">رعاية المسنين </h5>
               </a>
             </div>
@@ -138,25 +138,25 @@
           <div class="row">
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/ images/5eb81706874c5.png" %}">
+                <img src="{%static 'sub-static/images/5eb81706874c5.png'%}">
                 <h5 class="text-center">توزيع شنط غذائية</h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/images/5eb8164281f7b.png" %} ">
+                <img src="{%static 'sub-static/images/5eb8164281f7b.png'%}">
                 <h5 class="text-center">اطفال بلا مأوي</h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6">
               <a href="#">
-                <img src="{% static "static_site/images/5eb8185fda18d.png"" %}>
+                <img src="{%static 'sub-static/images/5eb8185fda18d.png'%}">
                 <h5 class="text-center">توفير ملابس </h5>
               </a>
             </div>
             <div class="col-lg-3 col-sm-6 last-col">
               <a href="#">
-                <img src="{% static "static_site/images/5eb8190b7805f.png" %} ">
+                <img src="{%static 'sub-static/images/5eb8190b7805f.png'%}">
                 <h5 class="text-center service">خدمات للمكفوفين وضعاف البصر</h5>
               </a>
             </div>
@@ -169,72 +169,71 @@
 
     <!-- start contact-way -->
 
-    <div class="contact-way">
-        <div class="caption text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <h4>حمل الان تطبيق متضامن</h4>
-                <img src="images/get-it-on-google-play-png-download-app-1251.png">
-                <hr class="col-one-hr">
-                <ul class="list-unstyled social-images">
-                  <li><img src="{% static "static_site/ images/instagram.png" %} "></li>
-                  <li><img src="{% static "static_site/ images/facebook.png" %}"></li>
-                  <li><img src="{% static "static_site/images/twitter.png" %} "></li>
-                  <li><img src="{% static "static_site/images/linkedin.png" %} "></li>
-                </ul>
+
+            <div class="contact-way">
+                <div class="caption text-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <h4>حمل الان تطبيق متضامن</h4>
+                        <img src=" {% static 'sub-static/images/get-it-on-google-play-png-download-app-1251.png' %}">
+                        <hr class="col-one-hr">
+                        <ul class="list-unstyled social-images">
+                          <li><img src=" {% static 'sub-static/images/instagram.png' %}  "></li>
+                          <li><img src=" {% static 'sub-static/images/facebook.png' %}  "></li>
+                          <li><img src=" {% static 'sub-static/images/twitter.png' %}  "></li>
+                          <li><img src="  {% static 'sub-static/images/linkedin.png' %} "></li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-2">
+                        <div id="vertical-line"></div>
+                      </div>
+                      <div class="col-lg-6">
+                        <img class="contact-way-logo" src=" {% static 'sub-static/images/emptyarabic.png'%}">
+                        <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
+                        <hr class="col-three-hr">
+                        <h6 class="text-center">تواصل معنا</h6>
+                        <table>
+                          <tr>
+                            <td><h6>motadamn@gmail.com</h6></td>
+                            <td><img src=" {% static 'sub-static/images/email.png' %}"></td>
+                          </tr>
+                          <tr>
+                            <td><h6 id="call">+201122471913</h6></td>
+                            <td><img src=" {% static 'sub-static/images/email.png' %}"></td>
+                          </tr>
+                          <tr>
+                            <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
+                            <td><img src=" {% static 'sub-static/images/email.png' %}"></td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-2">
-                <div id="vertical-line"></div>
+
+            <!-- end contact-way -->
+
+            <!-- start footer -->
+
+              <div class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h6 class="text-right">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
+                    </div>
+                    <div class="col-md-6">
+                      <h6 class="text-right">شروط وسياسة متضامن</h6>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <img class="contact-way-logo" src="{% static "static_site/ images/emptyarabic.png" %}">
-                <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
-                <hr class="col-three-hr">
-                <h6 class="text-center">تواصل معنا</h6>
-                <table>
-                  <tr>
-                    <td><h6>motadamn@gmail.com</h6></td>
-                    <td><img src=" {% static "static_site/ images/email.png" %}"></td>
-                  </tr>
-                  <tr>
-                    <td><h6 id="call">+201122471913</h6></td>
-                    <td><img src=" {% static "static_site/images/email.png" %} "></td>
-                  </tr>
-                  <tr>
-                    <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
-                    <td><img src=" {% static "static_site/images/email.png" %} "></td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    <!-- end contact-way -->
+            <!-- end footer -->
 
-    <!-- start footer -->
-
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h6 class="text-right">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
-            </div>
-            <div class="col-md-6">
-              <h6 class="text-right">شروط وسياسة متضامن</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!-- end footer -->
-
-      <script src=" {% static "static_site/js/jquery.js" %} "></script>
-      <script src=" {% static "static_site/js/bootstrap.min.js" %} "></script>
-      <script src=" {% static "static_site/js/script.js" %} "></script>
-
-    <!-- end social support-->
-</body>
-</html>
+              <script src="{% static 'sub-static/js/jquery.js' %}  "></script>
+              <script src="{% static 'sub-static/js/bootstrap.min.js' %} "></script>
+              <script src="{% static 'sub-static/js/script.js' %} "></script>
+        </body>
+        </html>
