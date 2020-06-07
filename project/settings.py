@@ -39,6 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'programs',
     'dss_box',
+    'charity',
+    'donor',
+    'features',
+    'supercategory',
+    
+    
 ]
 
 MIDDLEWARE = [
