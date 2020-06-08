@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.db import models
 import datetime
                                                      #importing
@@ -29,3 +30,5 @@ class Charity(models.Model):
         db_table = 'charity'
                                                      #managing by
 
+=======
+>>>>>>> 275fc8ec37b71cc3c518786971ceffba841bb171
