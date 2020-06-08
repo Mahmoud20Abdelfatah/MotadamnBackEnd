@@ -13,3 +13,6 @@ urlpatterns = [
 
 
 ]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+admin.site.site_header = "Motadamn Admin Panel"
