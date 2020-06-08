@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'features',
     'supercategory',
     'beneficiary',
+    'cases',
 
 
 ]
