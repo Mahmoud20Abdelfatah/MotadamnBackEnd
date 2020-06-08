@@ -20,4 +20,5 @@ class Donor(models.Model):
     class Meta:
         managed = True
         db_table = 'donor'
-                                                     #managing by
+                                                     #managing by  
+                                                     
