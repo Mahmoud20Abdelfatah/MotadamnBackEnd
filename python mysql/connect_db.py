@@ -1,4 +1,4 @@
-import mysql.connector
+'''import mysql.connector
 
 
 
@@ -10,4 +10,4 @@ myconn = mysql.connector.connect(
 
 )
 mycursor = myconn.cursor()
-print('Connected')
+print('Connected')'''

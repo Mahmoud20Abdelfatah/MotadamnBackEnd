@@ -7,6 +7,6 @@ class Supercategory(models.Model):
         return self.name
     class Meta:
         verbose_name = 'supercategory'
-        verbose_name_plural = 'supercategories' 
+        verbose_name_plural = 'supercategories'
         managed = True
         db_table = 'supercategory'
