@@ -42,9 +42,9 @@ INSTALLED_APPS = [
     'charity',
     'donor',
     'features',
-    'supercategory',
     
-    
+
+
 ]
 
 MIDDLEWARE = [
